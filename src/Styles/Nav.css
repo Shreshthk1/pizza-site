@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #dba24a;
+    font-family: 'Neucha';
+    background-color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+.links{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+.links a{
+    color: #dba24a;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.links a:hover{
+    color: #b86400;
+}

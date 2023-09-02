@@ -1,0 +1,49 @@
+.Home{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* color: #756e66; */
+.Content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.Content video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Slogan{
+    position: relative;
+    font-family: 'Abel';
+    font-size: 36px;
+    width: 40%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    margin-left: 10%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.Slogan button{
+    padding: 2% 3%;
+    font-size: 24px;
+    font-family: 'Abel';
+    background-color: #dba24a;
+    border: none;
+    color: black;
+
+}
+.Slogan button:hover{
+    color: white;
+    cursor: pointer;
+}
