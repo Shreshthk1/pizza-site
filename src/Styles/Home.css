@@ -31,19 +31,19 @@
     backdrop-filter: blur(20px);
     margin-left: 10%;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
-.Slogan button{
+.Slogan .OrderButton{
     padding: 2% 3%;
     font-size: 24px;
     font-family: 'Abel';
     background-color: #dba24a;
     border: none;
     color: black;
-
+    text-decoration: none;
 }
-.Slogan button:hover{
+.Slogan .OrderButton:hover{
     color: white;
     cursor: pointer;
 }
