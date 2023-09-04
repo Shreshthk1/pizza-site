@@ -25,10 +25,19 @@
     font-size: 12rem;
 }
 
-.Scroller img{
-    width: 50%;
-    rotate: 180deg;
-}
 html{
     overflow: hidden;
 }
+
+.pizzaWheel img{
+    width: 20%;
+}
+.prev{
+    rotate: 90deg;
+}
+.next{
+    rotate: -90deg;
+}
+/* html::-webkit-scrollbar{
+    display: none;
+  } */
